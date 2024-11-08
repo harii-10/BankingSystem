@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS banking;
+
+USE banking;
+
+CREATE TABLE IF NOT EXISTS accounts (
+    account_number INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    balance DOUBLE NOT NULL DEFAULT 0.0
+);
+
+SELECT * FROM accounts;
