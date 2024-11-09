@@ -77,7 +77,7 @@ class Bank {
         con = DriverManager.getConnection(
             "jdbc:mysql://localhost:3306/banking", 
             "root", 
-            "Hariharan@537221"
+            "1111111"
         );
         System.out.println("Connection Created");
     }
